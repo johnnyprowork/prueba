@@ -1,0 +1,420 @@
+   .body{
+
+    overflow-x: hidden;
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+    }
+
+@media screen and (max-width: 1440px){
+    .logo{
+        z-index: -4;
+        position: absolute;
+        margin-left: 1172px;
+        margin-top: 100px;
+    }
+
+    .container{
+        display: inline-block;
+    }
+
+    .menu{
+        height: 1024px;
+        width: 70px;
+        background-color: #F9F9F9;
+        box-shadow: 0px 0px 14px 0px rgb(0 0 0 / 61%);
+        border-radius: 15px 0px 0px 15px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .list{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .dashboard_img{
+        margin-top: 149px;
+        position: absolute;
+        transform: translateX(-16px);
+        cursor: pointer;
+    }
+
+     .dashboard_img_active{
+        margin-top: 149px;
+        position: absolute;
+        transform: translateX(-25px)translateY(-10px);
+        cursor: pointer;
+    }
+    .language_img{
+        position: absolute;
+        transform: translateX(-23px)translatey(848px);
+    }
+
+    .notification_img{
+        transform: translateX(0px)translatey(905px);
+    }
+
+      .user_img{
+        
+    transform: translateX(0px)translatey(910px);
+
+    }
+
+      .container2{
+        display: inline-block;
+        position: absolute;
+    }
+     .list2{
+
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+ 
+
+    .menu2{
+        visibility: hidden;
+        transition: 0.3s;
+        opacity:0;
+    }
+     .menu2.active{
+        visibility: visible;
+        transition: 0.3s;
+        opacity:1;
+    }
+
+    .button_up{
+        position: absolute;
+        margin-left: 5px;
+        margin-top: -56px;
+    }
+
+    .button_down{
+        position: absolute;
+        margin-left: 5px;
+        margin-top: 32px;
+    }
+
+    .controls {
+      position:absolute;
+      display:block;
+      top:50%;
+      right:0px;
+      transform:translate(-50%);
+    }
+
+
+   .dash_marg{
+        margin-top: 149px;
+        margin-left: 121px;
+    }
+    .dash_title {
+        margin-left: -94px;
+        font-family: "Montserrat";
+        font-size: 16px;
+        color: #F96010;
+        margin-bottom: 8.5px;
+        font-weight: 600;
+    }
+
+    .line_dash_title{
+        border-top: 3px solid #E2E2E2;
+        width: 222px;
+        margin-left: -120px
+    }
+
+
+
+
+    .carousel > .window {
+       overflow: hidden;
+       position: relative;
+       height: 528px;
+       margin-top: 88px;
+    }
+    .carousel ul {
+       list-style: none;
+       height: 10000px;
+       top: 0;
+       left: 0;
+       position: absolute;
+       padding: 0px;
+       margin-top: -15px;
+    }
+    .carousel li {
+       margin: 30px 0 0;
+    }
+    .prev, .next {
+       font-size: 16px;
+       width: 100%;
+       position: absolute;
+       left: 50%;
+       color: #848C94;
+       z-index:3;
+    }
+
+    .prev:hover{
+       color:#F96010;
+    }
+
+    .next:hover{
+       color:#F96010;
+    }
+    .carousel li:first-child {
+       margin: 0;
+    }
+
+
+
+    .margin_submenu{
+        margin-top: 64px;
+    }
+    .icon_submenu{
+        margin-top: -13px;
+        transform: translateX(-56px)translatey(-13px);
+    }
+
+    .buttons_submenu_merch{
+        font-family: "Montserrat";
+        font-size: 16px;
+        color: #FFFFFF;
+        font-weight: 600;
+        width: 104px;
+        height: 24px;
+        margin-left: 30px;
+        text-align: center;
+        transform: translateX(3px)translateY(10px);
+
+    }
+
+    .background_submenu{
+        width: 176px;
+        height: 40px;
+        background-color:#F96010;
+        margin-left: 46px;
+        border-radius: 18px;
+    }
+
+    .margin_submenu2{
+        margin-top: 40px;
+    }
+
+    .background_submenu2{
+        width: 176px;
+        height: 40px;
+        background-color:#848C94;
+        margin-left: 46px;
+        border-radius: 18px;
+    }
+
+    .clean_style{
+       text-decoration: none;
+    }
+
+    .background_submenu2:hover{
+        background-color:#F96010;
+    }
+
+    .icon_submenu2{
+        margin-top: -13px;
+        transform: translateX(-66px)translatey(-13px);
+    }
+  .buttons_submenu_transa{
+        font-family: "Montserrat";
+        font-size: 16px;
+        color: #FFFFFF;
+        font-weight: 600;
+        width: 104px;
+        height: 24px;
+        margin-left: 40px;
+        text-align: center;
+        transform: translateX(3px)translateY(10px);
+    }
+
+    .margin_submenu3{
+        margin-top: 40px;
+    }
+
+    .icon_submenu3{
+        margin-top: -13px;
+        transform: translateX(-53px)translatey(-13px);
+    }
+    .buttons_submenu_bran{
+        font-family: "Montserrat";
+        font-size: 16px;
+        color: #FFFFFF;
+        font-weight: 600;
+        width: 104px;
+        height: 24px;
+        margin-left: 30px;
+        text-align: center;
+        transform: translateX(3px)translateY(10px);
+    }
+    .background_submenu3{
+        width: 176px;
+        height: 40px;
+        background-color:#848C94;
+        margin-left: 46px;
+        border-radius: 18px;
+    }
+    .background_submenu3:hover{
+        background-color:#F96010;
+    }
+    .margin_submenu4{
+        margin-top: 40px;
+    }
+
+
+    .background_submenu4{
+        width: 176px;
+        height: 40px;
+        background-color:#848C94;
+        margin-left: 46px;
+        border-radius: 18px;
+    }
+    .background_submenu4:hover{
+        background-color:#F96010;
+    }
+    .buttons_submenu_sites{
+        font-family: "Montserrat";
+        font-size: 16px;
+        color: #FFFFFF;
+        font-weight: 600;
+        width: 104px;
+        height: 24px;
+        margin-left: 30px;
+        text-align: center;
+        transform: translateX(7px)translateY(7px);
+    }
+    .icon_submenu4{
+        margin-top: -13px;
+        transform: translateX(-76px)translatey(10px);
+    }
+
+      .margin_submenu5{
+        margin-top: 40px;
+    }
+
+    .background_submenu5{
+        width: 176px;
+        height: 40px;
+        background-color:#848C94;
+        margin-left: 46px;
+        border-radius: 18px;
+    }
+    .background_submenu5:hover{
+        background-color:#F96010;
+    }
+    .buttons_submenu_isic{
+        font-family: "Montserrat";
+        font-size: 16px;
+        color: #FFFFFF;
+        font-weight: 600;
+        width: 104px;
+        height: 24px;
+        margin-left: 30px;
+        text-align: center;
+        transform: translateX(7px)translateY(7px);
+    }
+
+     .icon_submenu5{
+        margin-top: -13px;
+        transform: translateX(-70px)translatey(9px);
+    }
+
+    .margin_submenu6{
+        margin-top: 40px;
+    }
+
+    .background_submenu6{
+        width: 176px;
+        height: 40px;
+        background-color:#848C94;
+        margin-left: 46px;
+        border-radius: 18px;
+    }
+    .background_submenu6:hover{
+        background-color:#F96010;
+    }
+    .buttons_submenu_users{
+        font-family: "Montserrat";
+        font-size: 16px;
+        color: #FFFFFF;
+        font-weight: 600;
+        width: 104px;
+        height: 24px;
+        margin-left: 30px;
+        text-align: center;
+        transform: translateX(11px)translateY(7px)
+    }
+    .icon_submenu6{
+        margin-top: -13px;
+        transform:translateX(-82px)translatey(9px);
+    }
+
+    .margin_submenu7{
+        margin-top: 40px;
+    }
+
+    .background_submenu7{
+        width: 176px;
+        height: 40px;
+        background-color:#848C94;
+        margin-left: 46px;
+        border-radius: 18px;
+    }
+    .background_submenu7:hover{
+        background-color:#F96010;
+    }
+    .buttons_submenu_acqui{
+        font-family: "Montserrat";
+        font-size: 16px;
+        color: #FFFFFF;
+        font-weight: 600;
+        width: 104px;
+        height: 24px;
+        margin-left: 40px;
+        text-align: center;
+        transform: translateX(-4px)translateY(10px);
+    }
+    .icon_submenu7{
+        margin-top: -13px;
+        transform: translateX(-53px)translatey(-13px);
+    }
+
+       .background_submenu8{
+        width: 176px;
+        height: 40px;
+        background-color:#848C94;
+        margin-left: 46px;
+        border-radius: 18px;
+    }
+    .background_submenu4:hover{
+        background-color:#F96010;
+    }
+  
+
+    .bleft{
+        position: absolute;
+        transform: translateX(248px)translateY(348px);
+
+    }
+    .illus_back{
+        display: inline;
+        position: absolute;
+        z-index: -7;
+        margin-top: 668px;
+        margin-left: 104px;
+    }
+    .illus_pro{
+        width: 483px;
+        height: 360px;
+    }
+
+}
